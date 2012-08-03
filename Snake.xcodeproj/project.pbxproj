@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B32F06C0157945720011B5CC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32F06BF157945720011B5CC /* Cocoa.framework */; };
+		B32F06CA157945720011B5CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B32F06C8157945720011B5CC /* InfoPlist.strings */; };
+		B32F06CC157945720011B5CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B32F06CB157945720011B5CC /* main.m */; };
+		B32F06D0157945720011B5CC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B32F06CE157945720011B5CC /* Credits.rtf */; };
+		B32F06D3157945720011B5CC /* MVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B32F06D2157945720011B5CC /* MVAppDelegate.m */; };
+		B32F06D6157945720011B5CC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B32F06D4157945720011B5CC /* MainMenu.xib */; };
+		B32F06DE157945720011B5CC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32F06DD157945720011B5CC /* SenTestingKit.framework */; };
+		B32F06DF157945720011B5CC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32F06BF157945720011B5CC /* Cocoa.framework */; };
+		B32F06E7157945720011B5CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B32F06E5157945720011B5CC /* InfoPlist.strings */; };
+		B32F06EA157945720011B5CC /* SnakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B32F06E9157945720011B5CC /* SnakeTests.m */; };
+		B32F06F51579464D0011B5CC /* MVSnakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B32F06F41579464D0011B5CC /* MVSnakeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B32F06E0157945720011B5CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32F06B2157945720011B5CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B32F06BA157945720011B5CC;
+			remoteInfo = Snake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B32F06BB157945720011B5CC /* Snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32F06BF157945720011B5CC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B32F06C2157945720011B5CC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B32F06C3157945720011B5CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B32F06C4157945720011B5CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B32F06C7157945720011B5CC /* Snake-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Snake-Info.plist"; sourceTree = "<group>"; };
+		B32F06C9157945720011B5CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B32F06CB157945720011B5CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B32F06CD157945720011B5CC /* Snake-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snake-Prefix.pch"; sourceTree = "<group>"; };
+		B32F06CF157945720011B5CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B32F06D1157945720011B5CC /* MVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVAppDelegate.h; sourceTree = "<group>"; };
+		B32F06D2157945720011B5CC /* MVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVAppDelegate.m; sourceTree = "<group>"; };
+		B32F06D5157945720011B5CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B32F06DC157945720011B5CC /* SnakeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnakeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32F06DD157945720011B5CC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B32F06E4157945720011B5CC /* SnakeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnakeTests-Info.plist"; sourceTree = "<group>"; };
+		B32F06E6157945720011B5CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B32F06E8157945720011B5CC /* SnakeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnakeTests.h; sourceTree = "<group>"; };
+		B32F06E9157945720011B5CC /* SnakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnakeTests.m; sourceTree = "<group>"; };
+		B32F06F31579464D0011B5CC /* MVSnakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSnakeView.h; sourceTree = "<group>"; };
+		B32F06F41579464D0011B5CC /* MVSnakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSnakeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B32F06B8157945720011B5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32F06C0157945720011B5CC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32F06D8157945720011B5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32F06DE157945720011B5CC /* SenTestingKit.framework in Frameworks */,
+				B32F06DF157945720011B5CC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B32F06B0157945720011B5CC = {
+			isa = PBXGroup;
+			children = (
+				B32F06C5157945720011B5CC /* Snake */,
+				B32F06E2157945720011B5CC /* SnakeTests */,
+				B32F06BE157945720011B5CC /* Frameworks */,
+				B32F06BC157945720011B5CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B32F06BC157945720011B5CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B32F06BB157945720011B5CC /* Snake.app */,
+				B32F06DC157945720011B5CC /* SnakeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B32F06BE157945720011B5CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32F06BF157945720011B5CC /* Cocoa.framework */,
+				B32F06DD157945720011B5CC /* SenTestingKit.framework */,
+				B32F06C1157945720011B5CC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B32F06C1157945720011B5CC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32F06C2157945720011B5CC /* AppKit.framework */,
+				B32F06C3157945720011B5CC /* CoreData.framework */,
+				B32F06C4157945720011B5CC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B32F06C5157945720011B5CC /* Snake */ = {
+			isa = PBXGroup;
+			children = (
+				B32F06D1157945720011B5CC /* MVAppDelegate.h */,
+				B32F06D2157945720011B5CC /* MVAppDelegate.m */,
+				B32F06D4157945720011B5CC /* MainMenu.xib */,
+				B32F06F31579464D0011B5CC /* MVSnakeView.h */,
+				B32F06F41579464D0011B5CC /* MVSnakeView.m */,
+				B32F06C6157945720011B5CC /* Supporting Files */,
+			);
+			path = Snake;
+			sourceTree = "<group>";
+		};
+		B32F06C6157945720011B5CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B32F06C7157945720011B5CC /* Snake-Info.plist */,
+				B32F06C8157945720011B5CC /* InfoPlist.strings */,
+				B32F06CB157945720011B5CC /* main.m */,
+				B32F06CD157945720011B5CC /* Snake-Prefix.pch */,
+				B32F06CE157945720011B5CC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B32F06E2157945720011B5CC /* SnakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B32F06E8157945720011B5CC /* SnakeTests.h */,
+				B32F06E9157945720011B5CC /* SnakeTests.m */,
+				B32F06E3157945720011B5CC /* Supporting Files */,
+			);
+			path = SnakeTests;
+			sourceTree = "<group>";
+		};
+		B32F06E3157945720011B5CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B32F06E4157945720011B5CC /* SnakeTests-Info.plist */,
+				B32F06E5157945720011B5CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B32F06BA157945720011B5CC /* Snake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32F06ED157945720011B5CC /* Build configuration list for PBXNativeTarget "Snake" */;
+			buildPhases = (
+				B32F06B7157945720011B5CC /* Sources */,
+				B32F06B8157945720011B5CC /* Frameworks */,
+				B32F06B9157945720011B5CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snake;
+			productName = Snake;
+			productReference = B32F06BB157945720011B5CC /* Snake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B32F06DB157945720011B5CC /* SnakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32F06F0157945720011B5CC /* Build configuration list for PBXNativeTarget "SnakeTests" */;
+			buildPhases = (
+				B32F06D7157945720011B5CC /* Sources */,
+				B32F06D8157945720011B5CC /* Frameworks */,
+				B32F06D9157945720011B5CC /* Resources */,
+				B32F06DA157945720011B5CC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B32F06E1157945720011B5CC /* PBXTargetDependency */,
+			);
+			name = SnakeTests;
+			productName = SnakeTests;
+			productReference = B32F06DC157945720011B5CC /* SnakeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B32F06B2157945720011B5CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MV;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "megavolt605@gmail.com";
+			};
+			buildConfigurationList = B32F06B5157945720011B5CC /* Build configuration list for PBXProject "Snake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B32F06B0157945720011B5CC;
+			productRefGroup = B32F06BC157945720011B5CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B32F06BA157945720011B5CC /* Snake */,
+				B32F06DB157945720011B5CC /* SnakeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B32F06B9157945720011B5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32F06CA157945720011B5CC /* InfoPlist.strings in Resources */,
+				B32F06D0157945720011B5CC /* Credits.rtf in Resources */,
+				B32F06D6157945720011B5CC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32F06D9157945720011B5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32F06E7157945720011B5CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B32F06DA157945720011B5CC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B32F06B7157945720011B5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32F06CC157945720011B5CC /* main.m in Sources */,
+				B32F06D3157945720011B5CC /* MVAppDelegate.m in Sources */,
+				B32F06F51579464D0011B5CC /* MVSnakeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32F06D7157945720011B5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32F06EA157945720011B5CC /* SnakeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B32F06E1157945720011B5CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B32F06BA157945720011B5CC /* Snake */;
+			targetProxy = B32F06E0157945720011B5CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B32F06C8157945720011B5CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32F06C9157945720011B5CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B32F06CE157945720011B5CC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32F06CF157945720011B5CC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B32F06D4157945720011B5CC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32F06D5157945720011B5CC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B32F06E5157945720011B5CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32F06E6157945720011B5CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B32F06EB157945720011B5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B32F06EC157945720011B5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B32F06EE157945720011B5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snake/Snake-Prefix.pch";
+				INFOPLIST_FILE = "Snake/Snake-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B32F06EF157945720011B5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snake/Snake-Prefix.pch";
+				INFOPLIST_FILE = "Snake/Snake-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B32F06F1157945720011B5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snake.app/Contents/MacOS/Snake";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snake/Snake-Prefix.pch";
+				INFOPLIST_FILE = "SnakeTests/SnakeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B32F06F2157945720011B5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snake.app/Contents/MacOS/Snake";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snake/Snake-Prefix.pch";
+				INFOPLIST_FILE = "SnakeTests/SnakeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B32F06B5157945720011B5CC /* Build configuration list for PBXProject "Snake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32F06EB157945720011B5CC /* Debug */,
+				B32F06EC157945720011B5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32F06ED157945720011B5CC /* Build configuration list for PBXNativeTarget "Snake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32F06EE157945720011B5CC /* Debug */,
+				B32F06EF157945720011B5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B32F06F0157945720011B5CC /* Build configuration list for PBXNativeTarget "SnakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32F06F1157945720011B5CC /* Debug */,
+				B32F06F2157945720011B5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B32F06B2157945720011B5CC /* Project object */;
+}
